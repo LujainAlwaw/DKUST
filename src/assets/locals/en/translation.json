@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "portfolio": "PORTFOLIO",
+    "products": "PRODUCTS",
+    "services": "SERVICES",
+    "blog": "BLOG",
+    "resources": "RESOURCES",
+    "quiz": "QUIZ",
+    "contact": "CONTACT",
+    "login": "LOGIN",
+    "register": "REGISTER"
+  },
+  "footer": {
+    "contactDetail": "CONTACT DETAIL",
+    "address": "123 Business Street, Suite 100\nNew York, NY 10001",
+    "phone": "Phone: +1-234-567-890",
+    "email": "Email: info@dkust.com",
+    "quickLinks": "QUICK LINKS",
+    "aboutUs": "About Us",
+    "servicesTitle": "OUR SERVICES",
+    "webDev": "Web Development",
+    "frontendDev": "Frontend Development",
+    "webHosting": "Web Hosting",
+    "itConsulting": "IT Consulting",
+    "dataAnalytics": "Data Analytics",
+    "subscribe": "SUBSCRIBE NEWSLETTER",
+    "subscribeText": "Get the latest update and news.",
+    "enterFullname": "Enter Fullname",
+    "copyright": "Copyright © 2026 DKUST. All Rights Reserved."
+  },
+  "auth": {
+    "welcomeBack": "Welcome Back",
+    "welcomeUser": "Welcome Back, wawlolo96",
+    "signInSub": "Sign in to your DKUST account",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "signInBtn": "SIGN IN",
+    "orSignUp": "or sign up with",
+    "google": "Google",
+    "facebook": "Facebook",
+    "noAccount": "Don't have an account?",
+    "signUpLink": "Sign up",
+    "backToHome": "Back to Home",
+    "loginSuccessTitle": "Login Successful!",
+    "loginSuccessSub": "You have been signed in successfully.",
+    "continue": "Continue",
+    
+    "createAccount": "Create Account",
+    "createSub": "Join DKUST today — it's free",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "John",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Doe",
+    "confirmPassword": "Confirm password",
+    "confirmPlaceholder": "Repeat your password",
+    "termsAgree": "I agree to the Terms of Service and Privacy Policy",
+    "createBtn": "Create account",
+    "hasAccount": "Already have an account?",
+    "signInLink": "Sign in",
+    "accountCreated": "Account Created!",
+    "accountCreatedSub": "Welcome, User! Your account has been created successfully.",
+    "goToLogin": "Go to Login"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "askQuestion": "ASK A QUESTION",
+    "generalTitle": "Generally Asked Question",
+    "generalSub": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    "q1": "What services do you offer?",
+    "a1": "We offer a wide range of technology services including web development, machine learning solutions, robotics engineering, industrial consulting, and data analytics.",
+    "q2": "How can I contact your team?",
+    "a2": "You can reach our team through the contact form on our website, by emailing info@dkust.com, or by calling +1 234 567 8900.",
+    "q3": "Do you provide technical support?",
+    "a3": "Yes, we provide comprehensive technical support for all our services, including standard email support and priority phone support.",
+    "readyTest": "Ready to test your knowledge?",
+    "takeQuiz": "TAKE THE QUIZ"
+  },
+  "quiz": {
+    "title": "Test Your Knowledge",
+    "subtitle": "Answer the questions below and click Submit to check your score.",
+    "score": "Score: 0/5",
+    "chooseCorrect": "Choose the Correct Answer",
+    "q1": "Q1. What does HTML stand for?",
+    "opt1_1": "HyperText Markup Language",
+    "opt1_2": "HyperText Machine Language",
+    "opt1_3": "HighText Markup Language",
+    "opt1_4": "None of the above",
+    "q2": "Q2. Which CSS property changes the background color?",
+    "opt2_1": "color",
+    "opt2_2": "bg-color",
+    "opt2_3": "background-color",
+    "opt2_4": "background",
+    "q3": "Q3. Which Bootstrap class makes a button green?",
+    "opt3_1": "btn-primary",
+    "opt3_2": "btn-dark",
+    "opt3_3": "btn-warning",
+    "opt3_4": "btn-success",
+    "q4": "Q4. Which hook is used to store state in React?",
+    "opt4_1": "useState",
+    "opt4_2": "useEffect",
+    "opt4_3": "useRef",
+    "opt4_4": "useMemo",
+    "q5": "Q5. What is the primary use of Props in React?",
+    "opt5_1": "To style components",
+    "opt5_2": "To pass data between components",
+    "opt5_3": "To handle routing",
+    "opt5_4": "To manage global state",
+    "keepPracticing": "Keep Practicing!",
+    "resultText": "You answered 0 out of 5 questions correctly.",
+    "tryAgain": "TRY AGAIN",
+    "correct": "correct"
+  },
+
+  
+  "loginSuccess": {
+    "defaultUser": "User",
+    "welcomeBack": "Welcome Back,",
+    "signSubtitle": "Sign in to your DKUST account",
+    "title": "Login Successful",
+    "successMessage": "You have been signed in successfully.",
+    "continueBtn": "Continue",
+    "backToHome": "Back to Home"
+  },
+
+  
+  "socialLogins": {
+    "orSignUpWith": "or sign up with",
+    "google": "Google",
+    "facebook": "Facebook"
+  },
+
+  "successMessage": {
+    "accountCreated": "Account Created!",
+    "welcomeMsg": "Welcome, {{userName}}! Your account has been created successfully.",
+    "goToLogin": "Go to Login",
+    "backToHome": "Back to Home"
+  },
+  
+  "login": {
+    "welcomeBack": "Welcome Back",
+    "subtitle": "Sign in to your DKUST account",
+    "signInBtn": "SIGN IN",
+    "noAccount": "Don't have an account?",
+    "signUpLink": "Sign up",
+    "backToHome": "Back to Home"
+  },
+  "validation": {
+    "invalidEmail": "Invalid email address",
+    "emailRequired": "Email is required.",
+    "passwordRequired": "Password is required."
+  },
+  
+  "loginFields": {
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me"
+  },
+  
+  "registerFields": {
+    "firstNameLabel": "First Name",
+    "firstNamePlaceholder": "John",
+    "lastNameLabel": "Last Name",
+    "lastNamePlaceholder": "Doe",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Min. 6 characters",
+    "confirmPasswordLabel": "Confirm password",
+    "confirmPasswordPlaceholder": "Repeat your password",
+    "termsLabel": "I agree to the Terms of Service and Privacy Policy"
+  }
+
+
+}
+

@@ -1,0 +1,190 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "portfolio": "الأعمال",
+    "products": "المنتجات",
+    "services": "الخدمات",
+    "blog": "المدونة",
+    "resources": "الموارد",
+    "quiz": "الاختبار",
+    "contact": "اتصل بنا",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب"
+  },
+  "footer": {
+    "contactDetail": "تفاصيل الاتصال",
+    "address": "123 شارع الأعمال، الجناح 100\nنيويورك، NY 10001",
+    "phone": "الهاتف: +1-234-567-890",
+    "email": "البريد الإلكتروني: info@dkust.com",
+    "quickLinks": "روابط سريعة",
+    "aboutUs": "من نحن",
+    "servicesTitle": "خدماتنا",
+    "webDev": "تطوير الويب",
+    "frontendDev": "تطوير الواجهات الأمامية",
+    "webHosting": "استضافة المواقع",
+    "itConsulting": "استشارات تكنولوجيا المعلومات",
+    "dataAnalytics": "تحليل البيانات",
+    "subscribe": "الاشتراك في النشرة الإخبارية",
+    "subscribeText": "احصل على آخر التحديثات والأخبار.",
+    "enterFullname": "أدخل الاسم الكامل",
+    "copyright": "جميع الحقوق محفوظة © 2026 DKUST."
+  },
+  "auth": {
+    "welcomeBack": "مرحباً بعودتك",
+    "welcomeUser": "مرحباً بعودتك، wawlolo96",
+    "signInSub": "تسجيل الدخول إلى حسابك في DKUST",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "rememberMe": "تذكرني",
+    "signInBtn": "تسجيل الدخول",
+    "orSignUp": "أو تسجيل الدخول باستخدام",
+    "google": "جوجل",
+    "facebook": "فيسبوك",
+    "noAccount": "ليس لديك حساب؟",
+    "signUpLink": "سجل الآن",
+    "backToHome": "العودة إلى الرئيسية",
+    "loginSuccessTitle": "تم تسجيل الدخول بنجاح!",
+    "loginSuccessSub": "لقد تم تسجيل دخولك بنجاح.",
+    "continue": "متابعة",
+    
+    "createAccount": "إنشاء حساب",
+    "createSub": "انضم إلى DKUST اليوم — إنه مجاني",
+    "firstName": "الاسم الأول",
+    "firstNamePlaceholder": "جون",
+    "lastName": "اسم العائلة",
+    "lastNamePlaceholder": "دو",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "confirmPlaceholder": "أعد إدخال كلمة المرور",
+    "termsAgree": "أوافق على شروط الخدمة وسياسة الخصوصية",
+    "createBtn": "إنشاء الحساب",
+    "hasAccount": "لديك حساب بالفعل؟",
+    "signInLink": "تسجيل الدخول",
+    "accountCreated": "تم إنشاء الحساب!",
+    "accountCreatedSub": "مرحباً بك يا مستخدم! تم إنشاء حسابك بنجاح.",
+    "goToLogin": "الانتقال لتسجيل الدخول"
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "subtitle": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.",
+    "askQuestion": "طرح سؤال",
+    "generalTitle": "أسئلة عامة",
+    "generalSub": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.",
+    "q1": "ما هي الخدمات التي تقدمونها؟",
+    "a1": "نقدم مجموعة واسعة من خدمات التكنولوجيا بما في ذلك تطوير الويب، حلول التعلم الآلي، هندسة الروبوتات، الاستشارات الصناعية، وتحليل البيانات.",
+    "q2": "كيف يمكنني الاتصال بفريقكم؟",
+    "a2": "يمكنك التواصل مع فريقنا من خلال نموذج الاتصال في موقعنا، أو عبر البريد الإلكتروني info@dkust.com، أو بالاتصال على +1 234 567 8900.",
+    "q3": "هل توفرون دعماً تقنياً؟",
+    "a3": "نعم، نحن نقدم دعماً تقنياً شاملاً لجميع خدماتنا، بما في ذلك دعم البريد الإلكتروني القياسي ودعم الهاتف ذو الأولوية.",
+    "readyTest": "هل أنت مستعد לאختبار معلوماتك؟",
+    "takeQuiz": "ابدأ الاختبار"
+  },
+  "quiz": {
+    "title": "اختبر معلوماتك",
+    "subtitle": "أجب عن الأسئلة أدناه وانقر فوق إرسال التحقق من درطتك.",
+    "score": "النتيجة: 0/5",
+    "chooseCorrect": "اختر الإجابة الصحيحة",
+    "q1": "س1. ماذا تعني اختصار HTML؟",
+    "opt1_1": "لغة ترميز النصوص التشعبية",
+    "opt1_2": "لغة آلة النصوص التشعبية",
+    "opt1_3": "لغة ترميز النصوص العالية",
+    "opt1_4": "لاشيء مما ذكر",
+    "q2": "س2. ما هي خاصية CSS التي تغير لون الخلفية؟",
+    "opt2_1": "color",
+    "opt2_2": "bg-color",
+    "opt2_3": "background-color",
+    "opt2_4": "background",
+    "q3": "س3. أي فئة من Bootstrap تجعل الزر أخضر؟",
+    "opt3_1": "btn-primary",
+    "opt3_2": "btn-dark",
+    "opt3_3": "btn-warning",
+    "opt3_4": "btn-success",
+    "q4": "س4. ما هو الهوك المستخدم لتخزين الحالة في React؟",
+    "opt4_1": "useState",
+    "opt4_2": "useEffect",
+    "opt4_3": "useRef",
+    "opt4_4": "useMemo",
+    "q5": "س5. ما هو الاستخدام الأساسي لـ Props في React؟",
+    "opt5_1": "لتنسيق المكونات",
+    "opt5_2": "تمرير البيانات بين المكونات",
+    "opt5_3": "للتعامل مع التوجيه",
+    "opt5_4": "إدارة الحالة العامة",
+    "keepPracticing": "استمر في التدريب!",
+    "resultText": "لقد أجبت بشكل صحيح عن 0 من أصل 5 أسئلة.",
+    "tryAgain": "حاول مرة أخرى",
+    "correct": "صحيح"
+  },
+
+
+  
+  "loginSuccess": {
+    "defaultUser": "مستخدم",
+    "welcomeBack": "أهلاً بك مجدداً،",
+    "signSubtitle": "تسجيل الدخول إلى حساب DKUST الخاص بك",
+    "title": "تم تسجيل الدخول بنجاح",
+    "successMessage": "لقد تم تسجيل دخولك بنجاح.",
+    "continueBtn": "متابعة",
+    "backToHome": "العودة إلى الصفحة الرئيسية"
+  },
+
+
+  
+  "socialLogins": {
+    "orSignUpWith": "أو التسجيل باستخدام",
+    "google": "جوجل",
+    "facebook": "فيسبوك"
+  },
+
+
+  "successMessage": {
+    "accountCreated": "تم إنشاء الحساب!",
+    "welcomeMsg": "أهلاً بك، {{userName}}! لقد تم إنشاء حسابك بنجاح.",
+    "goToLogin": "الانتقال إلى تسجيل الدخول",
+    "backToHome": "العودة إلى الصفحة الرئيسية"
+  },
+
+
+
+  
+  "login": {
+    "welcomeBack": "أهلاً بك مجدداً",
+    "subtitle": "تسجيل الدخول إلى حسابك في DKUST",
+    "signInBtn": "تسجيل الدخول",
+    "noAccount": "ليس لديك حساب؟",
+    "signUpLink": "إنشاء حساب",
+    "backToHome": "العودة إلى الصفحة الرئيسية"
+  },
+  "validation": {
+    "invalidEmail": "البريد الإلكتروني غير صالح",
+    "emailRequired": "البريد الإلكتروني مطلوب.",
+    "passwordRequired": "كلمة المرور مطلوبة."
+  },
+
+  
+  "loginFields": {
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "rememberMe": "تذكرني"
+  },
+
+  
+  "registerFields": {
+    "firstNameLabel": "الاسم الأول",
+    "firstNamePlaceholder": "جون",
+    "lastNameLabel": "اسم العائلة",
+    "lastNamePlaceholder": "دُو",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "6 أحرف كحد أدنى",
+    "confirmPasswordLabel": "تأكيد كلمة المرور",
+    "confirmPasswordPlaceholder": "أعد كتابة كلمة المرور",
+    "termsLabel": "أوافق على شروط الخدمة وسياسة الخصوصية"
+  }
+
+
+}
