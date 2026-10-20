@@ -167,8 +167,8 @@
 
 import { useFormik } from "formik";
 import { Form } from "react-bootstrap";
-import { useTranslation } from "react-i18next"; // [إضافة الترجمة]: استيراد خطاف الترجمة
-import { getLoginSchema } from "../../data/loginSchema"; // [تعديل السكيما]: استيراد الدالة بدلاً من الكائن الثابت
+import { useTranslation } from "react-i18next"; 
+import { getLoginSchema } from "../../data/loginSchema";
 import { getLoginFields } from "./loginConfig";
 import InputProvider from "../../components/common/InputProvider";
 import SocialLogins from "../../components/SocialLogins";
@@ -187,11 +187,10 @@ const LoginForm = () => {
   const navigate = useNavigate();
   const location = useLocation(); 
   const dispatch = useDispatch(); 
-  const { t } = useTranslation(); // [إضافة الترجمة]: تفعيل دالة الترجمة
+  const { t } = useTranslation(); 
 
   const from = location.state?.from || null;
 
-  // [تعديل السكيما]: تمرير دالة الترجمة t للسكيما لكي تترجم رسائل الأخطاء
   const validationSchema = getLoginSchema(t);
 
   const formik = useFormik({
@@ -200,7 +199,7 @@ const LoginForm = () => {
       password: "",
       rememberMe: false,
     },
-    validationSchema, // استخدام السكيما الديناميكية هنا
+    validationSchema, 
     onSubmit: (values) => {
       Cookies.set(environment.TOKEN_KEY, "dummy-token-value", { expires: 7 });
 

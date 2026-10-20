@@ -1,41 +1,4 @@
 
-//  export const questionsArray = [
-  
-//   {
-//     id: 1,
-//     question: "What does HTML stand for?",
-//     options: ["HyperText Markup Language", "HyperText Machine Language", "HighText Markup Language", "None of the above"],
-//     answer: "HyperText Markup Language"
-//   },
-//   {
-//     id: 2,
-//     question: "Which CSS property changes the background color?",
-//     options: ["color", "bg-color", "background-color", "background"],
-//     answer: "background-color"
-//   },
-//   {
-//     id: 3,
-//     question: "Which Bootstrap class makes a button green?",
-//     options: ["btn-primary", "btn-dark", "btn-warning", "btn-success"],
-//     answer: "btn-success"
-//   },
-//   {
-//     id: 4,
-//     question: "Which hook is used to store state in React?",
-//     options: ["useState", "useEffect", "useRef", "useMemo"],
-//     answer: "useState"
-//   },
-//   {
-//     id: 5,
-//     question: "What is the primary use of Props in React?",
-//     options: ["To style components", "To pass data between components", "To handle routing", "To manage global state"],
-//     answer: "To pass data between components"
-//   },
-  
-// ];
-
-
-
 export const questionsData = {
   en: [
     {
