@@ -1,115 +1,10 @@
 
 
-
-// import { useState } from 'react';
-// import { useNavigate } from 'react-router-dom'; 
-// import QuestionCard from '../../components/question-card';
-// import { questionsArray } from '../../data/questionsArray';
-// import { 
-//   QuizContainer, 
-//   HeroSection, 
-//   MainTitle, 
-//   QuestionsWrapper, 
-//   ResultBox, 
-//   ActionButtonsContainer, 
-//   SubmitButton 
-// } from './styles';
-
-// const QuizPage = () => {
-//   const navigate = useNavigate();
-  
-//   const [isSubmitted, setIsSubmitted] = useState(false);
-//   const [score, setScore] = useState(0);
-//   const [answers, setAnswers] = useState({});
-
-//   const totalQuestions = questionsArray.length;
-
-//   const handleSubmit = () => {
-//     const answeredCount = Object.keys(answers).length;
-//     if (answeredCount < totalQuestions) {
-//       alert("Please answer all questions before submitting.");
-//       return;
-//     }
-
-//     let currentScore = 0;
-//     questionsArray.forEach((q) => {
-//       if (answers[q.id] === q.answer) {
-//         currentScore += 1;
-//       }
-//     });
-//     setScore(currentScore);
-//     setIsSubmitted(true);
-//   };
-
-//   const handleSelectAnswer = (questionId, selectedOption) => {
-//     setAnswers((prev) => ({
-//       ...prev,
-//       [questionId]: selectedOption,
-//     }));
-//   };
-
-//   return (
-//     <QuizContainer>
-//       <HeroSection isSubmitted={isSubmitted} score={score} total={totalQuestions}>
-//         <h2>Test Your Knowledge</h2>
-//         <p>Answer the questions below and click Submit to check your score.</p>
-        
-//         <div className="badge">
-//           {!isSubmitted ? `${totalQuestions} Questions` : `Score: ${score}/${totalQuestions}`}
-//         </div>
-//       </HeroSection>
-
-//       <MainTitle>Choose the Correct Answer</MainTitle>
-
-//       <QuestionsWrapper>
-//         {questionsArray.map((q) => (
-//           <QuestionCard 
-//             key={q.id} 
-//             questionData={q} 
-//             isSubmitted={isSubmitted} 
-//             selectedAnswer={answers[q.id]}
-//             onSelectAnswer={handleSelectAnswer}
-//           />
-//         ))}
-
-//         {!isSubmitted && (
-//           <SubmitButton onClick={handleSubmit}>
-//             SUBMIT QUIZ
-//           </SubmitButton>
-//         )}
-//       </QuestionsWrapper>
-
-//       {isSubmitted && (
-//         <>
-//           <ResultBox score={score} total={totalQuestions}>
-//             <h3>
-//               {score === totalQuestions ? 'Perfect Score!' : score > 0 ? 'Good Effort!' : 'Keep Practicing!'}
-//             </h3>
-//             <p>You answered {score} out of {totalQuestions} questions correctly.</p>
-//           </ResultBox>
-
-//           <ActionButtonsContainer>
-//             <button className="try-again-btn" onClick={() => { setIsSubmitted(false); setAnswers({}); }}>
-//               TRY AGAIN
-//             </button>
-//             <button className="back-btn" onClick={() => navigate('/')}>
-//               Back to Home
-//             </button>
-//           </ActionButtonsContainer>
-//         </>
-//       )}
-//     </QuizContainer>
-//   );
-// };
-
-// export default QuizPage;
-
-
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
 import { useTranslation } from 'react-i18next';
 import QuestionCard from '../../components/question-card';
-import { questionsData } from '../../data/questionsArray'; // استيراد كائن المصفوفة الجديد
+import { questionsData } from '../../data/questionsArray'; 
 import { 
   QuizContainer, 
   HeroSection, 
@@ -128,7 +23,6 @@ const QuizPage = () => {
   const [score, setScore] = useState(0);
   const [answers, setAnswers] = useState({});
 
-  // تحديد اللغة النشطة واختيار المصفوفة المطابقة من ملف الأسئلة
   const currentLang = i18n.language && i18n.language.startsWith('ar') ? 'ar' : 'en';
   const questionsArray = questionsData[currentLang] || questionsData.en;
 
