@@ -1,46 +1,4 @@
-// import { InputTypes } from "../../constants/enums";
 
-// export const getRegisterFields = (connectField) => [
-//   {
-//     type: InputTypes.TEXT,
-//     fieldLabel: "First Name",
-//     placeholder: "John",
-//     halfWidth: true,
-//     ...connectField("firstName"),
-//   },
-//   {
-//     type: InputTypes.TEXT,
-//     fieldLabel: "Last Name",
-//     placeholder: "Doe",
-//     halfWidth: true,
-//     ...connectField("lastName"),
-//   },
-//   {
-//     type: InputTypes.EMAIL,
-//     fieldLabel: "Email",
-//     placeholder: "you@example.com",
-//     ...connectField("email"),
-//   },
-//   {
-//     type: InputTypes.PASSWORD,
-//     fieldLabel: "Password",
-//     placeholder: "Min. 6 characters",
-//         showStrength: true,
-
-//     ...connectField("password"),
-//   },
-//   {
-//     type: InputTypes.PASSWORD,
-//     fieldLabel: "Confirm password",
-//     placeholder: "Repeat your password ",
-//     ...connectField("confirmPassword"),
-//   },
-//   {
-//     type: InputTypes.CHECKBOX,
-//     fieldLabel: "I agree to the Terms of Service and Privacy Policy",
-//     ...connectField("terms"),
-//   },
-// ];
 
 
 import { InputTypes } from "../../constants/enums";

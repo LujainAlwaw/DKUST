@@ -1,4 +1,3 @@
-import React from "react";
 import { Helmet } from "react-helmet-async";
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -6,10 +5,6 @@ import NavBar from "../navbar";
 import Footer from "../footer";
 import environment from "../../environment";
 
-// Shared page shell used by every route.
-// Idea: pages describe themselves (title, description, path) and this
-// component writes Helmet tags, optional (navbar/footer), and <main>.
-// pageTitle / pageDescription are i18n keys, not raw copy, so EN/AR stay in sync.
 const AppTemplate = ({
   pageTitle,
   pageDescription,

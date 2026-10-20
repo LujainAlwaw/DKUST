@@ -1,14 +1,3 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import App from './App';
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
-
 
 import ReactDOM from "react-dom/client";
 import App from "./App";
@@ -22,9 +11,6 @@ import { HelmetProvider } from "react-helmet-async";
 import store from "./store";
 import reportWebVitals from "./reportWebVitals";
 
-// i18next boots once, before React mounts, so the first paint already has a language.
-// Dictionaries live in src/assets/locals/{en,ar}/translation.json.
-// lng is restored from localStorage (set by LanguageSwitcher); Arabic is the default.
 i18next.use(initReactI18next).init({
   interpolation: { escapeValue: false },
   lng: localStorage.getItem(environment.lang) || "ar",

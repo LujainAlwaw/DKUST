@@ -176,8 +176,51 @@
     "confirmPasswordLabel": "Confirm password",
     "confirmPasswordPlaceholder": "Repeat your password",
     "termsLabel": "I agree to the Terms of Service and Privacy Policy"
-  }
-
-
+  },
+  
+  "hero": {
+    "badge": "WELCOME TO DKUST",
+    "titlePart": "Powering the Future with",
+    "titleHighlight": "Smart Technology",
+    "description": "We build AI-driven software, robotics systems, and intelligent hardware solutions that help businesses automate, scale, and innovate faster than ever before.",
+    "explore": "Explore Products",
+    "quiz": "Take the Quiz"
+  },
+  "stats": {
+    "clients": "Happy Clients",
+    "projects": "Projects Delivered",
+    "satisfaction": "Satisfaction Rate",
+    "support": "Support Available"
+  },
+  "features": {
+    "security": {
+      "title": "Enterprise Security",
+      "desc": "AES-256 encryption and zero-log policy across all our platform services."
+    },
+    "delivery": {
+      "title": "Instant Delivery",
+      "desc": "Access your products immediately after purchase — no waiting, no friction."
+    },
+    "support": {
+      "title": "Top-Rated Support",
+      "desc": "24/7 expert support with an average response time under 2 hours."
+    }
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "description": "Join thousands of teams using DKUST solutions to build, automate, and scale their operations.",
+    "createAccount": "Create Free Account",
+    "signIn": "Sign In"
+  },
+  "tags": {
+  "bestSeller": "الأكثر مبيعاً",
+  "new": "جديد",
+  "popular": "شائع",
+  "sale": "تخفيض",
+  "topRated": "الأعلى تقييماً"
 }
+}
+
+
+
 

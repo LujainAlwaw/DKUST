@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
@@ -15,7 +15,6 @@ const LanguageSwitcher = () => {
     navigate(0);
   };
 
-  // Persist the choice, tell i18next, then reload so dir/lang and Helmet rebuild.
   const switchLanguage = (langKey) => {
     Cookies.set(environment.localLang, langKey);
     localStorage.setItem(environment.lang, langKey);
